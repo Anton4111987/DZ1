@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DZ1</title>
+</head>
+<body>
+    <h2> Введите номера цветов:</h2>
+    <form action="display.php" method="POST">
+        <label for="colorR">Введите цвет "R" (в интервале от 0 до 255):</label>
+        <input type="number" name="colorR" id="colorR" min="0" max="255" required>
+        <br/> <br/>
+        <label for="colorG">Введите цвет "G" (в интервале от 0 до 255):</label>
+        <input type="number" name="colorG" id="colorG" min="0" max="255" required>
+        <br/> <br/>
+        <label for="colorB">Введите цвет "B" (в интервале от 0 до 255):</label>
+        <input type="number" name="colorB" id="colorB" min="0" max="255" required>
+        <br/> <br/>
+        <input type="submit"  value="Accept" >
+        <br/> <br/>
+    </form>
+        <span id="textColor" style="background: aqua; color:rgb(255, 0, 0)" > цветовой фон - aqua, цвет текста - красный </span>
+           
+        
+   
+</body>
+</html>
